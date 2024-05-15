@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-size: 3rem;
+  max-width: 680px;
+  max-height: 70rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.body-mobile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 100%;
+  gap: 3rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: red;
+  padding: 3rem;
+}
+
+.login-header {
+  font-size: 3rem;
+  margin-bottom: 4rem;
+  margin-top: 3rem;
+}
+
+.login-container {
+  /* margin: 0 auto; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 2rem; */
+  background-color: orangered;
+  flex-basis: 100%;
+  padding: 0 7rem 5rem;
+}
+
+.Main-nav-list {
+  display: none;
+}
+
+form {
+  max-width: 800px;
+}
