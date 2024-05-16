@@ -22,13 +22,22 @@ body {
   font-weight: 600; */
 }
 
+.navigation {
+  display: flex;
+  justify-content: center;
+  height: 8rem;
+  margin-top: 6rem;
+  margin-bottom: 7rem;
+  align-items: center;
+}
+
 .logo span {
   background-color: yellow;
   padding: 0.5rem;
   color: #000;
   border-radius: 8px;
   font-weight: 700;
-  font-size: 3rem;
+  font-size: 1.8rem;
   letter-spacing: 5px;
 }
 
@@ -36,7 +45,7 @@ body {
   /* background-color: #fff; */
   /* color: #000; */
   letter-spacing: 6px;
-  font-size: 3rem;
+  font-size: 1.8rem;
   font-weight: 700;
   border-radius: 8px;
 
@@ -49,7 +58,7 @@ form {
   flex-direction: column;
   justify-content: center;
   padding-bottom: 3rem;
-  gap: 1rem;
+  gap: 7rem;
 }
 
 form input {
@@ -60,18 +69,20 @@ form input {
   background-color: #000;
   color: #fff;
   border-bottom: 1px solid #d4d46b;
-  font-size: 2rem;
+  font-size: 1.4rem;
   padding: 2rem;
   margin: 0 auto;
 }
 
 form input:active {
   border: none;
-  border-color: red;
 }
 
-.email-input {
-  margin-bottom: 2.1rem;
+.label {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  margin-left: 7rem;
+  font-size: 1.8rem;
 }
 
 .header {
@@ -93,27 +104,11 @@ form input:active {
   font-size: 5rem;
 }
 
-.navigation {
-  display: flex;
-  justify-content: center;
-  /* background-color: red; */
-  height: 8rem;
-  margin-top: 6rem;
-  margin-bottom: 3rem;
-  align-items: center;
-}
-
 .login-container {
   /* margin: 0 auto; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.label {
-  padding-bottom: 1rem;
-  font-size: 2rem;
-  margin-left: 7rem;
 }
 
 .Main-nav-list {
@@ -134,7 +129,7 @@ form input:active {
   border-radius: 1rem;
   font-weight: 700;
   margin-left: 7rem;
-  margin-top: 5rem;
+  margin-top: auto;
 }
 
 .btn {
