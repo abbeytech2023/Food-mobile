@@ -28,18 +28,46 @@ body {
   color: #000;
   border-radius: 8px;
   font-weight: 700;
-  font-size: 2.1rem;
+  font-size: 3rem;
   letter-spacing: 5px;
 }
 
+.logo {
+  /* background-color: #fff; */
+  /* color: #000; */
+  letter-spacing: 6px;
+  font-size: 3rem;
+  font-weight: 700;
+  border-radius: 8px;
+
+  padding: 0.5rem;
+}
+
+form {
+  /* background-color: blue; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 3rem;
+  gap: 1rem;
+}
+
 form input {
-  width: 70%;
+  width: 80%;
   height: 4rem;
-  border: 1px solid black;
-  /* margin-left: 1rem; */
-  border-radius: 2rem;
-  background-color: #d4d46b;
+  border: none;
+  /* border-radius: 2rem; */
+  background-color: #000;
+  color: #fff;
+  border-bottom: 1px solid #d4d46b;
   font-size: 2rem;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+form input:active {
+  border: none;
+  border-color: red;
 }
 
 .email-input {
@@ -50,10 +78,6 @@ form input {
   background-color: rgb(226, 170, 15);
   background-color: #000;
   font-weight: 600;
-}
-
-.logo {
-  font-size: 2.4rem;
 }
 
 .body-mobile {
@@ -71,18 +95,12 @@ form input {
 
 .navigation {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   /* background-color: red; */
+  height: 8rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
   align-items: center;
-  /* padding: 3rem; */
-  padding: 1.5rem 5rem;
-}
-
-.login-header {
-  font-size: 2rem;
-  margin-bottom: 4rem;
-  margin-top: 3rem;
 }
 
 .login-container {
@@ -90,13 +108,12 @@ form input {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  /* background-color: orangered; */
-  padding: 0 5rem;
 }
 
-label {
-  padding-left: 1rem;
+.label {
+  padding-bottom: 1rem;
   font-size: 2rem;
+  margin-left: 7rem;
 }
 
 .Main-nav-list {
@@ -109,15 +126,27 @@ label {
 
 .btn-login {
   margin-top: 1.5rem;
-  width: 7rem;
+  width: 98%;
+  height: 5rem;
+  font-size: 2.2rem;
   padding: 0.7rem;
   background-color: #d4d46b;
   border-radius: 1rem;
   font-weight: 700;
+  margin-left: 7rem;
+  margin-top: 5rem;
 }
 
-form {
-  /* padding: 5rem; */
-  padding-bottom: 3rem;
-  max-width: 70rem;
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 5rem;
+  font-size: 2.5rem;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
