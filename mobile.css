@@ -16,17 +16,20 @@ body {
   font-size: 3rem;
   /* max-width: 680px; */
   max-height: 70rem;
-  /* display: flex;
+}
+
+.login-text {
+  display: flex;
   justify-content: center;
-  align-items: center;
-  font-weight: 600; */
+  font-size: 1.3rem;
+  padding-bottom: 5rem;
 }
 
 .navigation {
   display: flex;
   justify-content: center;
   height: 8rem;
-  margin-bottom: 7rem;
+  margin-bottom: 6rem;
   align-items: center;
 }
 
@@ -77,11 +80,18 @@ form input:active {
   border: none;
 }
 
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .label {
-  margin-bottom: 1rem;
-  font-size: 2rem;
   font-size: 1.4rem;
-  text-align: center;
+  /* text-align: center; */
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }
 
 .header {
@@ -120,27 +130,33 @@ form input:active {
 
 .btn-login {
   margin-top: 1.5rem;
-  width: 98%;
+  width: 70%;
   height: 5rem;
   font-size: 2.2rem;
-  /* padding: 0.7rem; */
   background-color: #d4d46b;
   border-radius: 1rem;
   font-weight: 700;
-  margin-left: 7rem;
   margin-top: 11rem;
+  border: none;
 }
 
 .btn {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-right: 5rem;
+  justify-content: center;
   font-size: 2.5rem;
 }
 
-.form-box {
+.util-box {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.util-link {
+  padding: 1.4rem;
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.4rem;
 }
