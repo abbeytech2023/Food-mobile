@@ -23,6 +23,7 @@ body {
   justify-content: center;
   font-size: 1.3rem;
   padding-bottom: 5rem;
+  color: #fff;
 }
 
 .navigation {
@@ -31,6 +32,19 @@ body {
   height: 8rem;
   margin-bottom: 6rem;
   align-items: center;
+}
+
+.header-text {
+  margin: 0 auto;
+  margin-bottom: 4rem;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.header-text a {
+  /* text-decoration: none; */
+  color: goldenrod;
+  padding-left: 1rem;
 }
 
 .logo span {
@@ -65,7 +79,7 @@ form {
 
 form input {
   width: 80%;
-  height: 4rem;
+  height: 6rem;
   border: none;
   /* border-radius: 2rem; */
   background-color: #000;
@@ -115,17 +129,12 @@ form input:active {
 
 .login-container {
   /* margin: 0 auto; */
+  background-color: #000;
+  color: #000;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.Main-nav-list {
-  list-style-type: none;
-}
-
-.nav-list {
-  display: none;
+  gap: 2rem;
 }
 
 .btn-login {
@@ -161,7 +170,7 @@ form input:active {
 
 .util-link {
   padding: 1.4rem;
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   font-size: 1.4rem;
 }
