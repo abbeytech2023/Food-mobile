@@ -130,12 +130,12 @@ form input:active {
 
 .btn-login {
   margin-top: 1.5rem;
-  width: 70%;
+  width: 80%;
   height: 5rem;
   font-size: 2.2rem;
   background-color: #d4d46b;
   border-radius: 1rem;
-  font-weight: 700;
+  font-weight: 500;
   margin-top: 9rem;
   border: none;
 }
@@ -145,6 +145,11 @@ form input:active {
   align-items: center;
   justify-content: center;
   font-size: 2.5rem;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #000;
 }
 
 .util-box {
@@ -160,3 +165,5 @@ form input:active {
   text-decoration: none;
   font-size: 1.4rem;
 }
+
+/* Home css */
