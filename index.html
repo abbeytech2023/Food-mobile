@@ -47,6 +47,7 @@
   const menu = document.querySelector(".menu-icon")
   const nav = document.querySelector(".Main-nav-list")
   menu.addEventListener("click", function(e){
+  e.preventDefault()
     console.log("game")
     nav.classList.remove(".nav-list")
 

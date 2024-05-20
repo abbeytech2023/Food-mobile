@@ -94,6 +94,11 @@ form input:active {
   border: none;
 }
 
+input:focus {
+  border: none;
+  /* background-color: #d4d46b; */
+}
+
 .form-box {
   display: flex;
   flex-direction: column;

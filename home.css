@@ -97,8 +97,25 @@ header {
 }
 
 .small-box {
-  background-color: #dada99;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1.5rem;
+  padding-bottom: 0.8rem;
+  font-size: 1.8rem;
+  gap: 0.7rem;
+  background-color: #e9e9d2;
   height: 10rem;
   width: 15rem;
   border: 2px solid yellow;
+}
+
+.small-box img {
+  width: 70%;
+  height: 70%;
+}
+
+.small-box p {
+  color: rgb(166, 121, 8);
 }
